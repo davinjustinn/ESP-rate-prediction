@@ -38,7 +38,7 @@ if input == 'Your Dataset':
 else:
     df = pd.read_excel('input combined.xlsx',index_col="date",parse_dates=["date"])
 
-st.sidebar.write("*Note: make sure the flow rate column name is 'rate'")
+st.sidebar.write("*Note: required column in dataset --> 'date' and 'rate")
 
 st.sidebar.subheader('Model Input Section')
 model_type = st.sidebar.selectbox('Regression Model Method', ['Linear Regression','Decision Tree Regressor','Random Forest Regressor'])
