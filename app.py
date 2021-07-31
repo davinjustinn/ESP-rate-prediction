@@ -146,4 +146,14 @@ chart.update_layout(title={'text':'Regression Plot',
                    yaxis_title='Predicted Data')
 st.plotly_chart(chart)
 
+check_data = st.checkbox('Display Input Dataset')
+
+if check_data:
+    st.write(df)
+
+
+
+
+
+
 
