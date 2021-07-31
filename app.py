@@ -108,7 +108,7 @@ Mean Absolute Error (MAE): {}
 
 Mean Squared Error (MSE): {}
 
-Mean Squared Error (MSE): {}
+Root Mean Squared Error (RMSE): {}
 
 R Squared (R2): {}
 
